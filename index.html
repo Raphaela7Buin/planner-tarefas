@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meu Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>📅 Meu Planner</h1>
+
+  <!-- 🔥 INPUT E BOTÃO (ESSENCIAL) -->
+  <input id="tarefa" placeholder="Digite uma tarefa">
+  <button onclick="adicionar()">Adicionar</button>
+
+  <!-- 🔥 COLUNAS -->
+  <div class="board">
+
+    <div class="coluna" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <h2>A Fazer</h2>
+      <div id="a-fazer"></div>
+    </div>
+
+    <div class="coluna" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <h2>Fazendo</h2>
+      <div id="fazendo"></div>
+    </div>
+
+    <div class="coluna" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <h2>Concluído</h2>
+      <div id="concluido"></div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
