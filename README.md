@@ -7,7 +7,7 @@ Este projeto é um planner de tarefas estilo Kanban desenvolvido com HTML, CSS e
 - Mover tarefas entre colunas
 - Interface simples e intuitiva
 
-Tecnologias utilizadas:
+Tecnologias:
 - HTML
 - CSS
 - JavaScript
